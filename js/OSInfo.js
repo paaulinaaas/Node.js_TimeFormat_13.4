@@ -14,7 +14,7 @@ function getOSinfo() {
 	    console.log('System:', type);
 	    console.log('Release:', release);
 	    console.log('CPU model:', cpu);
-	    console.log('Uptime: ~', secondsConverter(uptime));
+	    console.log('Uptime: ~', time.secondsConverter(uptime));
 	   	//w dokumentacji czas jest w sekundach dlatego dzielimy czas przez 60 i następnie
 		//zaokraglony (totFixed) do 0 miejsc po przecinku
 	    console.log('User name:', userInfo.username);
